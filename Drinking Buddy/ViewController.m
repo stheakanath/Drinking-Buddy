@@ -13,6 +13,7 @@
 @property (nonatomic, retain) StandardCupButton *addAlc;
 @property (nonatomic, retain) WazeBackground *deltaBackground;
 @property (nonatomic, retain) NSDictionary *dictContents;
+@property (nonatomic, retain) DataCalculator *tracker;
 @property (nonatomic, retain) Timer *timer;
 @property BOOL *didSelectOnLaunch;
 
@@ -27,6 +28,7 @@
     self.addAlc = [[StandardCupButton alloc] init:self selector:@selector(didClickButton:) withImage:@"ShotGlass"];
     [self.view addSubview:self.addAlc];
     self.timer = [[Timer alloc] init];
+    self.tracker = [[DataCalculator alloc] init];
     //Setting Up Contents of 
 }
 

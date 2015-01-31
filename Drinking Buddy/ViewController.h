@@ -10,6 +10,7 @@
 #import "StandardCupButton.h"
 #import "WazeBackground.h"
 #import "Timer.h"
+#import "DataCalculator.h"
 
 @interface ViewController : UIViewController
 
