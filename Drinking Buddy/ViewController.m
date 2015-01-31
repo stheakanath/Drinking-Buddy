@@ -10,18 +10,32 @@
 
 @interface ViewController ()
 
+@property (nonatomic, retain) StandardCupButton *addAlc;
+@property (nonatomic, retain) WazeBackground *deltaBackground;
+@property (nonatomic, retain) NSDictionary *dictContents;
+@property (nonatomic, retain) Timer *timer;
+@property BOOL *didSelectOnLaunch;
+
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.deltaBackground = [[WazeBackground alloc] init];
+    [self.view addSubview:self.deltaBackground];
+    self.addAlc = [[StandardCupButton alloc] init:self selector:@selector(didClickButton:) withImage:@"ShotGlass"];
+    [self.view addSubview:self.addAlc];
+    self.timer = [[Timer alloc] init];
+    //Setting Up Contents of 
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)didClickButton:(id)sender {
+    if (!self.didSelectOnLaunch) {
+        [self.timer startTimer];
+    } else {
+        double time = [self.timer timeElapsedInSeconds];
+        //do something with time
+    }
 }
-
 @end

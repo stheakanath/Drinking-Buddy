@@ -15,6 +15,10 @@
 		EB04F69F1A7CA3E9001AB54A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB04F69D1A7CA3E9001AB54A /* LaunchScreen.xib */; };
 		EB04F6AB1A7CA3E9001AB54A /* Drinking_BuddyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB04F6AA1A7CA3E9001AB54A /* Drinking_BuddyTests.m */; };
 		EB04F6B61A7CAAEC001AB54A /* DataCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = EB04F6B51A7CAAEC001AB54A /* DataCalculator.m */; };
+		EB04F6B91A7D0402001AB54A /* StandardCupButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EB04F6B81A7D0402001AB54A /* StandardCupButton.m */; };
+		EB04F6BD1A7D0469001AB54A /* WazeBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = EB04F6BC1A7D0469001AB54A /* WazeBackground.m */; };
+		EB04F6C01A7D079E001AB54A /* Timer.m in Sources */ = {isa = PBXBuildFile; fileRef = EB04F6BF1A7D079E001AB54A /* Timer.m */; };
+		EB04F6C31A7D084B001AB54A /* UserLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = EB04F6C21A7D084B001AB54A /* UserLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +47,14 @@
 		EB04F6AA1A7CA3E9001AB54A /* Drinking_BuddyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Drinking_BuddyTests.m; sourceTree = "<group>"; };
 		EB04F6B41A7CAAEC001AB54A /* DataCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataCalculator.h; path = "Interface Classes/DataCalculator.h"; sourceTree = "<group>"; };
 		EB04F6B51A7CAAEC001AB54A /* DataCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataCalculator.m; path = "Interface Classes/DataCalculator.m"; sourceTree = "<group>"; };
+		EB04F6B71A7D0402001AB54A /* StandardCupButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StandardCupButton.h; path = "Interface Classes/StandardCupButton.h"; sourceTree = "<group>"; };
+		EB04F6B81A7D0402001AB54A /* StandardCupButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StandardCupButton.m; path = "Interface Classes/StandardCupButton.m"; sourceTree = "<group>"; };
+		EB04F6BB1A7D0469001AB54A /* WazeBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WazeBackground.h; path = "Interface Classes/WazeBackground.h"; sourceTree = "<group>"; };
+		EB04F6BC1A7D0469001AB54A /* WazeBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WazeBackground.m; path = "Interface Classes/WazeBackground.m"; sourceTree = "<group>"; };
+		EB04F6BE1A7D079E001AB54A /* Timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Timer.h; path = "Interface Classes/Timer.h"; sourceTree = "<group>"; };
+		EB04F6BF1A7D079E001AB54A /* Timer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Timer.m; path = "Interface Classes/Timer.m"; sourceTree = "<group>"; };
+		EB04F6C11A7D084B001AB54A /* UserLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserLabel.h; path = "Interface Classes/UserLabel.h"; sourceTree = "<group>"; };
+		EB04F6C21A7D084B001AB54A /* UserLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserLabel.m; path = "Interface Classes/UserLabel.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,9 +100,8 @@
 				EB04F6931A7CA3E9001AB54A /* AppDelegate.m */,
 				EB04F6951A7CA3E9001AB54A /* ViewController.h */,
 				EB04F6961A7CA3E9001AB54A /* ViewController.m */,
+				EB04F6BA1A7D0406001AB54A /* Interface Files */,
 				EB04F6981A7CA3E9001AB54A /* Main.storyboard */,
-				EB04F6B41A7CAAEC001AB54A /* DataCalculator.h */,
-				EB04F6B51A7CAAEC001AB54A /* DataCalculator.m */,
 				EB04F69B1A7CA3E9001AB54A /* Images.xcassets */,
 				EB04F69D1A7CA3E9001AB54A /* LaunchScreen.xib */,
 				EB04F68E1A7CA3E9001AB54A /* Supporting Files */,
@@ -122,6 +133,23 @@
 				EB04F6A91A7CA3E9001AB54A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB04F6BA1A7D0406001AB54A /* Interface Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB04F6B41A7CAAEC001AB54A /* DataCalculator.h */,
+				EB04F6B51A7CAAEC001AB54A /* DataCalculator.m */,
+				EB04F6B71A7D0402001AB54A /* StandardCupButton.h */,
+				EB04F6B81A7D0402001AB54A /* StandardCupButton.m */,
+				EB04F6BE1A7D079E001AB54A /* Timer.h */,
+				EB04F6BF1A7D079E001AB54A /* Timer.m */,
+				EB04F6C11A7D084B001AB54A /* UserLabel.h */,
+				EB04F6C21A7D084B001AB54A /* UserLabel.m */,
+				EB04F6BB1A7D0469001AB54A /* WazeBackground.h */,
+				EB04F6BC1A7D0469001AB54A /* WazeBackground.m */,
+			);
+			name = "Interface Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,8 +254,12 @@
 			files = (
 				EB04F6971A7CA3E9001AB54A /* ViewController.m in Sources */,
 				EB04F6941A7CA3E9001AB54A /* AppDelegate.m in Sources */,
+				EB04F6BD1A7D0469001AB54A /* WazeBackground.m in Sources */,
 				EB04F6911A7CA3E9001AB54A /* main.m in Sources */,
+				EB04F6B91A7D0402001AB54A /* StandardCupButton.m in Sources */,
+				EB04F6C31A7D084B001AB54A /* UserLabel.m in Sources */,
 				EB04F6B61A7CAAEC001AB54A /* DataCalculator.m in Sources */,
+				EB04F6C01A7D079E001AB54A /* Timer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

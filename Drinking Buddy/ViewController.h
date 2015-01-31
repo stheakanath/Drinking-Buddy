@@ -7,6 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "StandardCupButton.h"
+#import "WazeBackground.h"
+#import "Timer.h"
 
 @interface ViewController : UIViewController
 
