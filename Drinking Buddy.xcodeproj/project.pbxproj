@@ -14,6 +14,7 @@
 		EB04F69C1A7CA3E9001AB54A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB04F69B1A7CA3E9001AB54A /* Images.xcassets */; };
 		EB04F69F1A7CA3E9001AB54A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB04F69D1A7CA3E9001AB54A /* LaunchScreen.xib */; };
 		EB04F6AB1A7CA3E9001AB54A /* Drinking_BuddyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB04F6AA1A7CA3E9001AB54A /* Drinking_BuddyTests.m */; };
+		EB04F6B61A7CAAEC001AB54A /* DataCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = EB04F6B51A7CAAEC001AB54A /* DataCalculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		EB04F6A41A7CA3E9001AB54A /* Drinking BuddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Drinking BuddyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB04F6A91A7CA3E9001AB54A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB04F6AA1A7CA3E9001AB54A /* Drinking_BuddyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Drinking_BuddyTests.m; sourceTree = "<group>"; };
+		EB04F6B41A7CAAEC001AB54A /* DataCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataCalculator.h; path = "Interface Classes/DataCalculator.h"; sourceTree = "<group>"; };
+		EB04F6B51A7CAAEC001AB54A /* DataCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataCalculator.m; path = "Interface Classes/DataCalculator.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				EB04F6951A7CA3E9001AB54A /* ViewController.h */,
 				EB04F6961A7CA3E9001AB54A /* ViewController.m */,
 				EB04F6981A7CA3E9001AB54A /* Main.storyboard */,
+				EB04F6B41A7CAAEC001AB54A /* DataCalculator.h */,
+				EB04F6B51A7CAAEC001AB54A /* DataCalculator.m */,
 				EB04F69B1A7CA3E9001AB54A /* Images.xcassets */,
 				EB04F69D1A7CA3E9001AB54A /* LaunchScreen.xib */,
 				EB04F68E1A7CA3E9001AB54A /* Supporting Files */,
@@ -222,6 +227,7 @@
 				EB04F6971A7CA3E9001AB54A /* ViewController.m in Sources */,
 				EB04F6941A7CA3E9001AB54A /* AppDelegate.m in Sources */,
 				EB04F6911A7CA3E9001AB54A /* main.m in Sources */,
+				EB04F6B61A7CAAEC001AB54A /* DataCalculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +420,7 @@
 				EB04F6B01A7CA3E9001AB54A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB04F6B11A7CA3E9001AB54A /* Build configuration list for PBXNativeTarget "Drinking BuddyTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +429,7 @@
 				EB04F6B31A7CA3E9001AB54A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
